@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medio de transporte</title>
+</head>
+<body>
+   <script>
+       var transporte = ["Pie", "Bicicleta", "Colectivo", "Auto", "Avión"];
+
+       transporte=prompt("Ingrese distancia:");
+
+       if (transporte<=1000){
+           document.write("Transporte recomendado Pie");
+       }
+       else if (transporte>1000 && transporte<=10000) {
+           document.write ("Transporte recomendado Bicicleta");
+       }
+
+       else if (transporte>10000 && transporte<=30000) {
+           document.write ("Transporte recomendado Colectivo");
+       }
+
+       else if (transporte>30000 && transporte<=100000) {
+           document.write  ("Transporte recomendado Auto");
+       }
+
+       else if (transporte>100000) {
+           document.write ("Transporte recomendado Avión");
+       }
+   </script> 
+</body>
+</html>
